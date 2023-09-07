@@ -20,4 +20,8 @@ export default {
     <img :src="printImg(img)" alt="asdas" />
   </div>
 </template>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+img {
+  width: 50%;
+}
+</style>
